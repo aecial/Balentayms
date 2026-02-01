@@ -20,12 +20,12 @@ export default function Home() {
   return (
     <div
       className="flex flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans text-black bg-cover"
-      style={{ backgroundImage: "url(/balentayms/bg.png)" }}
+      style={{ backgroundImage: "url(/Balentayms/bg.png)" }}
     >
       {yesPressed ? (
         <YesDiv />
       ) : (
-        <LandingDiv imageSrc={`/balentayms${Images[imgIdx]}`} />
+        <LandingDiv imageSrc={`/Balentayms${Images[imgIdx]}`} />
       )}
       <ValentineCard
         yesPressed={yesPressed}
