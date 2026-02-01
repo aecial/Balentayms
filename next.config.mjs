@@ -12,7 +12,7 @@ const nextConfig = {
       },
     ],
   },
-  basePath: "/balentayms",
+  basePath: "/Balentayms",
   output: "export",
 };
 
