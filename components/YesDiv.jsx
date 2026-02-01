@@ -4,7 +4,7 @@ import HeartMosaic from "./HeartMosaic";
 const YesDiv = () => {
   const Images = Array.from(
     { length: 32 },
-    (_, i) => `/balentayms/mosaic/${i}.jpeg`,
+    (_, i) => `/Balentayms/mosaic/${i}.jpeg`,
   );
   return (
     <div className="p-4 min-h-screen w-full text-center flex flex-col items-center">
