@@ -2,7 +2,10 @@ import React from "react";
 import HeartMosaic from "./HeartMosaic";
 
 const YesDiv = () => {
-  const Images = Array.from({ length: 32 }, (_, i) => `/mosaic/${i}.jpeg`);
+  const Images = Array.from(
+    { length: 32 },
+    (_, i) => `/balentayms/mosaic/${i}.jpeg`,
+  );
   return (
     <div className="p-4 min-h-screen w-full text-center flex flex-col items-center">
       <h1 className="text-4xl lg:text-[100px] font-bold my-4 text-pink-600 font-love">

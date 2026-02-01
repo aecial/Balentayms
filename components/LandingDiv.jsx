@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const LandingDiv = ({ imageSrc = "/hero0.jpg" }) => {
+const LandingDiv = ({ imageSrc = "/balentayms/hero0.jpg" }) => {
   return (
     <main className="flex flex-col items-center justify-center">
       <Image src={imageSrc} width={300} height={300} alt="Hero" />

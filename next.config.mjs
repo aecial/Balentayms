@@ -12,6 +12,7 @@ const nextConfig = {
       },
     ],
   },
+  basePath: "/balentayms",
   output: "export",
 };
 
